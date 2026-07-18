@@ -57,9 +57,10 @@ h3.sec-big{font-size:clamp(26px,4vw,40px);font-weight:900;text-align:center;colo
 .card p{color:var(--muted);font-size:15px;}
 
 /* screenshots */
-.shots{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;}
-.shots figure{width:280px;}
-.shots img{width:100%;border-radius:26px;border:1px solid var(--zinc);box-shadow:0 24px 60px rgba(0,0,0,.6);}
+.shots{display:flex;gap:30px;justify-content:center;flex-wrap:wrap;}
+.shots figure{width:300px;transition:transform .2s ease;}
+.shots figure:hover{transform:translateY(-6px);}
+.shots img{width:100%;border-radius:22px;border:1px solid var(--zinc);box-shadow:0 24px 60px rgba(0,0,0,.6);}
 .shots figcaption{text-align:center;color:var(--muted);font-size:13px;margin-top:12px;letter-spacing:.12em;text-transform:uppercase;}
 
 /* pricing */
